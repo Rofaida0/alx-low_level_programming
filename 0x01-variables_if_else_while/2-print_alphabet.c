@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - prints alpha in lower case
  * Return: Alwayes 0
@@ -8,7 +8,7 @@ int main(void)
 {
 	char lc;
 
-	for (lc = 'a'; lc >= 'z'; lc++)
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		putchar(lc);
 	}
